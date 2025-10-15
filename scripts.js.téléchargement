@@ -1,0 +1,1 @@
+var VbaComponent=null,VAAPConfig={output_section:"callback"};function registerVBA(){VAAP.getToken(callback_function)}var callback_function=function(n){""!=n&&VbaComponent.postVBAToken(n)};
